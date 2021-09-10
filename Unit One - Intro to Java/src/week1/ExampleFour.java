@@ -3,7 +3,7 @@ package week1;
 /**
  * Variables - used to store data 
  * Primitive Data Types - (int / double / char / boolean)
- * Assignment / Assignment Operator - used to store values/data in variables 
+ * Assignment / Assignment Operator - used to store values/data in variables . 
  */
 
 public class ExampleFour {

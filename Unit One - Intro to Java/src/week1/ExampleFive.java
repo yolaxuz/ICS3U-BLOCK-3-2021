@@ -13,15 +13,16 @@ public class ExampleFive {
 
         double average = (markOne + markTwo + markThree) / 3; // integer division 242/3 = 80 no deciamal 
         
-        // double average = (markOne + markTwo + markThree) / 3.0; // double division 242/3.0 = 80.6667 
+        //double average = (markOne + markTwo + markThree) / 3.0; // double division 242/3.0 = 80.6667 
 
+        System.out.println("The average is: " + average);
         System.out.println("The average is: " + average);
 
 
         System.out.println(4/3); // 1
         System.out.println(4/3.0); // 1.3333
         System.out.println(3/4);   // 0
-        System.out.println(3.0/4);   // 0.75
+        System.out.println(3.0/4);   // 0.75 
     }
     
 }

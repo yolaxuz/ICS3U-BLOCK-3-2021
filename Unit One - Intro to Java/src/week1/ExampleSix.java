@@ -23,7 +23,7 @@ public class ExampleSix {
         x++;  // increment by 1
         y--;  // decrease by 1 
 
-        // modulus operator % -> returns the remainer 
+        // modulus operator % -> returns the remainer .
 
         System.out.println(13%3);  // 13/3 what is the remainder 
     }
