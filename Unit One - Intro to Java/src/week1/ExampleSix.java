@@ -26,6 +26,19 @@ public class ExampleSix {
         // modulus operator % -> returns the remainer .
 
         System.out.println(13%3);  // 13/3 what is the remainder 
+        y = y % 2; //equvillent to y%=2
+
+        int a = 5;  
+        a++;
+        ++a;
+        a--;
+        --a;
+
+        int b = 3;
+        int bb = 3;
+
+        int c = 2 * b++;
+        int d = 2 * ++bb; 
     }
     
 }
