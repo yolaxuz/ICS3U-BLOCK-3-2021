@@ -5,6 +5,10 @@ public class ExtraQuestion {
         questionTwo(); 
         System.out.println(questionThree());
         System.out.println(questionFour(2,8));
+        String str = questionFive("This is a Sentence.");
+        System.out.println(str);
+        str = questionSix("This is a Sentecne.", "ent");
+        System.out.println(questionSeven("one", "two"));
 
         
     }
@@ -42,5 +46,39 @@ public class ExtraQuestion {
          return num4;
      }
 
+     /*Create a function that accepts a String and returns a substring with the first "e" removed
+     */
+     public static String questionFive(String string) { 
+         int index = string.indexOf("e");
+
+         String first = string.substring(0, index);
+
+         String last = string.substring(index + 1); 
+
+         return first + last; 
+     }
      
-}
+     /* Create a function that accepts a String and a substring and then 
+     *returns a String with the second string removed from the first String. 
+     */
+     public static String questionSix(String str, String substr) {
+         int index = str.indexOf(substr);
+         String first1 = str.substring(0, index);
+         String last = str.substring(index + str.length());
+
+         return first1 + last; 
+     }
+    /*Create a function that accepts two Strings and returns the length of the two strings
+    *added together.
+    */
+    public static int questionSeven(String str, String substr) {
+        return str.length() + substr.length(); 
+    }
+
+
+    
+     }
+
+
+
+
