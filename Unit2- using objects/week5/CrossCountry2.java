@@ -61,7 +61,6 @@ public class CrossCountry2 {
         return String.format("%d:%06.3f", getMinutes(diffInSeconds), getSeconds(diffInSeconds));
       // create getMinutes and getSeconds functions to use
    }
-Yola
    public static int getMinutes(double totalSecond){ 
        int min = (int)(totalSecond/60); 
         return min; 
